@@ -1,0 +1,129 @@
+ *{
+    padding: 0%;
+    margin: 0%;
+    box-shadow: 0%;
+}
+
+
+#headerbar{
+    background-color: blue;
+    height: 100px;
+}
+.header{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+
+}
+#itembar{
+    position: absolute;
+    right: 0;
+    top: 40px;
+}
+.head{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+#logobar{
+   
+    text-align: left;
+    animation: gold 10s ;
+}
+.imageid{
+    text-align: center;
+    
+}
+
+#costalogo{
+    width: 70%;
+}
+#form{
+    background-color: rgb(219, 219, 219);
+    width:30%;
+    height: 400px;
+    margin: auto;
+    padding: 50px;
+    margin-top: 70px;
+    text-align: center;
+}
+
+#form input{
+    padding: 10px;
+}
+
+#search{
+    background-color: gray;
+    border-radius: 10px;
+    margin: auto;
+}
+
+#text{
+    border:3px solid gray;
+    height: 500px;
+    width: 100%;
+}
+#both{
+    width: 50%;
+    margin: auto; 
+}
+
+
+.text{
+    width: 60%;
+    padding: 15px;
+}
+.button{
+    background-color: blue;
+    padding: 13px;
+    font-size: 15px;
+    box-shadow: none;
+}
+
+button{
+    padding: 15px;
+    margin:5px; 
+}
+button:hover{
+    background-color: black;
+    font-size: 5px;
+}
+button a{
+    color: blue;
+    text-decoration: none;
+    box-shadow: none;
+    font-size: 20px;
+}
+#create a {
+    text-decoration: none;
+    text-align: left;
+}
+
+.check{
+    padding: 40px;
+    width: 100%;
+}
+
+@keyframes gold{
+    0%{
+        margin-left:0px;
+    }
+    50%{
+        margin-left:200px;
+    }
+    100%{
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width:500px){
+   
+    #costalogo{
+        width:100%;
+    }
+    #both{
+        width: 90%;
+    }
+
+
+}
